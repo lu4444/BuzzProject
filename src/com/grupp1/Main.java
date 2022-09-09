@@ -7,7 +7,9 @@ public class Main {
 
         System.out.println("Hello world!");
 
-        Book book = new Book("Anna");
+        Book book = new Book("Anna", "Hill");
         System.out.println(book.getName());
+        System.out.println(book.getAuthor());
+
     }
 }
